@@ -1,4 +1,4 @@
-# identity-managment
+# context based identity-managment methods
 
 **Abstract**
 The idea proposes a new method for mobile and immobile asset protection and life cycle management using network assisted and network provided events.
