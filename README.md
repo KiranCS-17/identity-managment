@@ -48,4 +48,10 @@ Some mobility Event Examples
   4. S5: Event store with specific pattern.
 
   Vicinity-Vr is the case of roaming by the same device D1 of the CUG.
+  
+  ** Sample Message Flow and descriptions **
+   ![image](https://github.com/KiranCS-17/identity-managment/blob/main/figure-2.png)
+  
+
+  
 
