@@ -18,6 +18,7 @@ Are specific to these domain
 3.	Government/Private Body: Protecting/Monitoring the assets
 4.	Context Based Resource Authorization and Authentication
 5.	Context Based Identity Management.
+6.	Supply Chain Controls
 
 Some mobility Event Examples
 1.	Location Events (Real, Induced)
