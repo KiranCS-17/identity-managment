@@ -3,11 +3,11 @@
 **Abstract**
 The idea proposes a new method for mobile and immobile asset protection and life cycle management using network assisted and network provided events.
 The method to 
-	1.Generate mobility and communication context events
-	2.Store communication context event data
-	3.Generate a Hash Tag based on stored event data
-	4.Authorize group users to acquire hash tags for multiuser authentication
-	5.Induced/Virtual roaming for relative events
+1.     Generate mobility and communication context events
+2.     Store communication context event data
+3.     Generate a Hash Tag based on stored event data
+4.     Authorize group users to acquire hash tags for multiuser authentication
+5.     Induced/Virtual roaming for relative events
 
 Events can be location events or device state events or mobile context events specific to device or relative to device.
 Are specific to these domain 
