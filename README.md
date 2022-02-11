@@ -49,8 +49,38 @@ Some mobility Event Examples
 
   Vicinity-Vr is the case of roaming by the same device D1 of the CUG.
   
-  ** Sample Message Flow and descriptions **
-   ![image](https://github.com/KiranCS-17/identity-managment/blob/main/figure-2.png)
+  ##  Sample Message Flow and descriptions
+  ![image](https://github.com/KiranCS-17/identity-managment/blob/main/figure-2.png)
+  
+**Note:**
+The method of generating the events, inducing it and maintaining the records of events for UE and group of UEs, is hosted inside an AF called Communication Context & Event  Management Function.( CCEF)
+This AF is responsible for producing the Authorization events and creating challenge factors for fraud user using time stamp or any related events as a question.
+Some of the concepts of induced virtual roaming with AR-VR facilitation to create mobile communication context events that are encoded in 5G Data stores like UDR/UDSF.
+The new application function CCEM (communication context and event Management) is used to trigger mobility events related to asset protection and formulating Event data stored in granular time series DB in compact method with context data chains. 
+The Fraud user will be challenged to prove the Mobility Context Events and its relative events, at specified granular time or chain of times that becomes NP hard problem to solve. Block chain method will be one implementation idea to realize this concept.
+Google APIs can be used as an example for Location based Authentication and Authorization apart from 3GPP defined procedures.
+
+
+1.	UE/CUG performs authentication and attach subscribing for this new monitoring service.
+2.	RAN forwards this request to Serving Nodes (MME, AMF.)
+3.	Serving node asks HSS+UDM to perform authentication authorization 
+4.	HSS+UDM reads the subscriber profile in DB
+5.	HSS+UDM gets the subscriber profile response from DB
+5.	1,5.2,5.3 The UE/CUG is authenticated and attached and acknowledged by network.
+6.      HSS trigger CCEF to perform the service execution for this UE/CUG
+7.      CCEF asks HSS to generate the location events, or any other events mentioned in (Type of Events)
+8.	HSS queries the serving node to get the event data
+9.	HSS gets event data from serving nodes
+10.	HSS forwards the event data to CCEF.
+11.	CCEF acknowledges the HSS with permutation data 
+        At this step the CCEF implicitly subscribes for permutation data movement from UDR to UDSF based on time stamp.
+12.	HSS updates the permutation data into the subscriber profile/CUG.
+13.	The CCEF Executed the Algorithm A1 and stores the output into UDSF in time series DB.
+14.	The UDSF acknowledges the data.
+
+Based on user query or periodicity the CCEF can produce the Geo Hash with Algorithm A2
+And supply to user that can be used as challenge against fraud.
+
   
 
   
