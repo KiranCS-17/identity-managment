@@ -58,7 +58,8 @@ The method of generating the events, inducing it and maintaining the records of 
 This AF is responsible for producing the Authorization events and creating challenge factors for fraud user using time stamp or any related events as a question.
 Some of the concepts of induced virtual roaming with AR-VR facilitation to create mobile communication context events that are encoded in 5G Data stores like UDR/UDSF.
 The new application function CCEM (communication context and event Management) is used to trigger mobility events related to asset protection and formulating Event data stored in granular time series DB in compact method with context data chains. 
-The Fraud user will be challenged to prove the Mobility Context Events and its relative events, at specified granular time or chain of times that becomes NP hard problem to solve. Block chain method will be one implementation idea to realize this concept.
+The Fraud user will be challenged to prove the Mobility Context Events and its relative events, at specified granular time or chain of times that becomes NP hard problem to solve and with multiple hashes the trusted user can request for recursive challenges with the recursino depth configured (medium,high,or greedy) . 
+Block chain method will be one implementation method to realize this concept.
 Google APIs can be used as an example for Location based Authentication and Authorization apart from 3GPP defined procedures.
 
 1.  UE/CUG performs authentication and attach subscribing for this new monitoring service.
