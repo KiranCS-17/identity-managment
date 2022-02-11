@@ -60,23 +60,22 @@ The new application function CCEM (communication context and event Management) i
 The Fraud user will be challenged to prove the Mobility Context Events and its relative events, at specified granular time or chain of times that becomes NP hard problem to solve. Block chain method will be one implementation idea to realize this concept.
 Google APIs can be used as an example for Location based Authentication and Authorization apart from 3GPP defined procedures.
 
-
-1.UE/CUG performs authentication and attach subscribing for this new monitoring service.
-2.RAN forwards this request to Serving Nodes (MME, AMF).
-3.Serving node asks HSS+UDM to perform authentication authorization.
-4.HSS+UDM reads the subscriber profile in DB.
-5.HSS+UDM gets the subscriber profile response from DB.
-5.1,5.2,5.3 The UE/CUG is authenticated and attached and acknowledged by network.
-6.HSS/UDM trigger CCEF to perform the service execution for this UE/CUG.
-7.CCEF asks HSS to generate the location events, or any other events mentioned in(Type of Events).
-8.HSS/UDM queries the serving node to get the event data.
-9.HSS/UDM gets event data from serving nodes.
-10.HSS/UDM forwards the event data to CCEF.
-11.CCEF acknowledges the HSS with permutation data.
+1.  UE/CUG performs authentication and attach subscribing for this new monitoring service.
+2.  RAN forwards this request to Serving Nodes (MME, AMF).
+3.  Serving node asks HSS+UDM to perform authentication authorization.
+4.  HSS+UDM reads the subscriber profile in DB.
+5.  HSS+UDM gets the subscriber profile response from DB.
+    5.1,5.2,5.3 The UE/CUG is authenticated and attached and acknowledged by network.
+6.  HSS/UDM trigger CCEF to perform the service execution for this UE/CUG.
+7.  CCEF asks HSS to generate the location events, or any other events mentioned in(Type of Events).
+8.  HSS/UDM queries the serving node to get the event data.
+9.  HSS/UDM gets event data from serving nodes.
+10. HSS/UDM forwards the event data to CCEF.
+11. CCEF acknowledges the HSS with permutation data.
         At this step the CCEF implicitly subscribes for permutation data movement from UDR to UDSF based on time stamp.
-12.HSS/UDM updates the permutation data into the subscriber profile/CUG.
-13.The CCEF Executed the Algorithm A1 and stores the output into UDSF in time series DB.
-14.The UDSF acknowledges the data.
+12. HSS/UDM updates the permutation data into the subscriber profile/CUG.
+13. The CCEF Executed the Algorithm A1 and stores the output into UDSF in time series DB.
+14. The UDSF acknowledges the data.
 
 Based on user query or periodicity the CCEF can produce the Geo Hash with Algorithm A2
 And supply to user that can be used as challenge against fraud.
