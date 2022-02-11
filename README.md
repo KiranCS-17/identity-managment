@@ -80,6 +80,19 @@ Google APIs can be used as an example for Location based Authentication and Auth
 Based on user query or periodicity the CCEF can produce the Geo Hash with Algorithm A2
 And supply to user that can be used as challenge against fraud.
 
+
+**Sample Real Usage Example**
+The CCEF instructs the user to perform induced roaming using Virtual reality method.
+The user uses Virtual reality headsets and viewers and tries to roam from source (either chosen by network or by user)
+and moves to the destination (Geo Asset) using a route map.
+This virtually creates a roaming scenario.
+In this roaming scenario the specific events can be induced by operator between the resource and CUG and the owner  
+by using CCEF to get the location information, user state, the user specific contexts.
+The other relative events from control plane elements are recorded as event data stored in UDSF.
+The event can be fully constructed based on the induced roaming. 
+
+A hash-code is generated for this with input as Event data and stored against the time stamp.
+
   
 
   
