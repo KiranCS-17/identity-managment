@@ -19,7 +19,7 @@ are specific to these domain
 4.	Context Based Resource Authorization and Authentication
 5.	Context Based Identity Management.
 6.	Supply Chain Controls
-7.	Electronic badges and tokens for group asset managments
+7.	Electronic tokens for group asset managments
 
 Some mobility Event Examples
 1.	Location Events (Real, Induced)
