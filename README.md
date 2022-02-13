@@ -1,4 +1,4 @@
-# Context Based Identity-Managment Methods
+# Context Based Identity-Managment Method
 
 **Abstract**
 The idea proposes a new method for mobile and immobile asset protection and secure life cycle management using network assisted and network provided events.
