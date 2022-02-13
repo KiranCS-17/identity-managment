@@ -24,7 +24,7 @@ are specific to these domain
 Some mobility Event Examples
 1.	Location Events (Real, Induced)
 2.	User state Event (Real, Induced)
-3.	Roaming Events (Real, Induced)
+3.	Roaming Events (Real, Induced) (includes space roaming)
 4.	Re-Attach Event (Real, Induced)
 5.	Detach Event (Induced)
 6.	Relative Attach Event (Real)
@@ -38,7 +38,7 @@ Some mobility Event Examples
 14.	Generate email event
 15.	Get Charging event.
 16.	Handover from RAT (inter/intra) events
-17.	Handover from different access events
+17.	Handover from different access events(includes satellite access)
 18.	Using multiple SIMs from multi-vendor operator related events
 19.	Events due to OTT
 
@@ -84,7 +84,7 @@ Google APIs can be used as an example for Location based Authentication and Auth
 Based on user query or periodicity the CCEF can produce the Geo Hash with Algorithm A2
 And supply to user that can be used as challenge against fraud.
 
-**Goal**: The goal of this project is to realize the CCEF Applciation Function as PoC in step 1.
+**Goal**: The goal of this project is to realize the CCEF Application Function as PoC in step 1.
           Further steps focuses on performance aspects concerning response times.
 
 
