@@ -10,8 +10,8 @@ The method to
 5. Induced/Virtual roaming for relative events.
 6. Transferring the Assets to the next trusted user using mobile network events 
 
-Events can be location events or device state events or mobile context events specific to device or relative to device.
-Are specific to these domain 
+Events can be location events or device state events or mobile context events specific to device or relative to device used to prove the authorized owner 
+are specific to these domain 
 
 1.	IoT: Smart City
 2.	General Public: Protecting/Monitoring the assets 
@@ -19,6 +19,7 @@ Are specific to these domain
 4.	Context Based Resource Authorization and Authentication
 5.	Context Based Identity Management.
 6.	Supply Chain Controls
+7.	Electronic badges and tokens for group asset managments
 
 Some mobility Event Examples
 1.	Location Events (Real, Induced)
@@ -82,6 +83,10 @@ Google APIs can be used as an example for Location based Authentication and Auth
 
 Based on user query or periodicity the CCEF can produce the Geo Hash with Algorithm A2
 And supply to user that can be used as challenge against fraud.
+
+**Goal**: The goal of this project is to realize the CCEF Applciation Function as 
+          PoC in step 1
+          Further steps foucses on performance aspects focusisng on response times.
 
 
 **Sample Real Usage Example**
