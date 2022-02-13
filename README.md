@@ -84,9 +84,8 @@ Google APIs can be used as an example for Location based Authentication and Auth
 Based on user query or periodicity the CCEF can produce the Geo Hash with Algorithm A2
 And supply to user that can be used as challenge against fraud.
 
-**Goal**: The goal of this project is to realize the CCEF Applciation Function as 
-          PoC in step 1
-          Further steps foucses on performance aspects focusisng on response times.
+**Goal**: The goal of this project is to realize the CCEF Applciation Function as PoC in step 1.
+          Further steps focuses on performance aspects concerning response times.
 
 
 **Sample Real Usage Example**
