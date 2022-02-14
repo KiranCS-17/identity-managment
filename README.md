@@ -47,7 +47,10 @@ Some mobility Event Examples
 23.	UE activity from specific version of trusted applicaiton (Real, Induced,Relative) 
 24.	UE activity based on device age,physical state(Real, Induced,Relative) 
 25.	Running mobile app residing in specific geographic location in cloud (Real, Induced,Relative) 
-26.	..
+26.	Device access events based on white/black list of biometric information A-Party,CUG
+27.	Device access events based on white/black list of speech and guesture of A-Party,CUG
+28.	Device access events based on relation of other measuring devices ( relative to temperature sensor, electricity consumption or user or CUG or any one in CUG,usage of    	 data on a day)
+
 
 **Realization**
  ![image](https://github.com/KiranCS-17/identity-managment/blob/main/figure-1.png)
