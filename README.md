@@ -46,7 +46,7 @@ Some mobility Event Examples
 22.	UE activity from specific pheriperal devices ( Sensors,monitors ,cameras)(Real, Induced,Relative) 
 23.	UE activity from specific version of trusted applicaiton (Real, Induced,Relative) 
 24.	UE activity based on device age,physical state(Real, Induced,Relative) 
-25.	Running mobile app from specific geographic location in cloud (Real, Induced,Relative) 
+25.	Running mobile app residing in specific geographic location in cloud (Real, Induced,Relative) 
 26.	..
 
 **Realization**
