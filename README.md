@@ -22,25 +22,32 @@ are specific to these domain
 7.	Electronic tokens for group asset managments
 
 Some mobility Event Examples
-1.	Location Events (Real, Induced)
-2.	User state Event (Real, Induced)
+1.	Location Events (Real, Induced,Relative) + UE driven 
+2.	UE status Event (Real, Induced) + UE driven 
 3.	Roaming Events (Real, Induced) (includes space roaming)
 4.	Re-Attach Event (Real, Induced)
 5.	Detach Event (Induced)
 6.	Relative Attach Event (Real)
-7.	OAM events
-8.	Charging Events
+7.	OAM events due to UE service usage
+8.	Charging Events due to UE service usage
 9.	Attach from type of network event
 10.	Attach from specified Device event
-11.	Receive SMS event
-12.	Send SMS event 
-13.	Subscribe for SMS event.
-14.	Generate email event
+11.	Receive SMS event(Real, Induced,Relative) 
+12.	Send SMS event (Real, Induced,Relative) 
+13.	Subscribe for SMS event.(Real, Induced,Relative) 
+14.	Generate email event(Real, Induced,Relative) 
 15.	Get Charging event.
-16.	Handover from RAT (inter/intra) events
-17.	Handover from different access events(includes satellite access)
-18.	Using multiple SIMs from multi-vendor operator related events
-19.	Events due to OTT
+16.	Handover from RAT (inter/intra) events (Real, Induced,Relative) 
+17.	Handover from different access events(includes satellite access)(Real, Induced,Relative) 
+18.	Using multiple SIMs from multi-vendor operator related events(Real, Induced,Relative) 
+19.	Events due to OTT(Real, Induced,Relative) 
+20.	Change Device ownership event(Real, Induced,Relative) 
+21.	Nominate the leader event in case of multisim based on schedules(Real, Induced,Relative) 
+22.	UE activity from specific pheriperal devices ( Sensors,monitors ,cameras)(Real, Induced,Relative) 
+23.	UE activity from specific version of trusted applicaiton (Real, Induced,Relative) 
+24.	UE activity based on device age,physical state(Real, Induced,Relative) 
+25.	Running mobile app from specific geographic location in cloud (Real, Induced,Relative) 
+26.	..
 
 **Realization**
  ![image](https://github.com/KiranCS-17/identity-managment/blob/main/figure-1.png)
