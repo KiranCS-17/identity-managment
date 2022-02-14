@@ -87,6 +87,8 @@ and supply to user that can be used as challenge against fraud.
 **Goal**: The goal of this project is to realize the CCEF Application Function as PoC in step 1.
           Further steps focuses on performance aspects concerning response times.
 
+**Prerequisites** : The UE has trusted application downloaded by the security service provider, the application in UE also produces mobility events / contexts 
+                the trused application in UE also receives messages from trusted network to trigger events to produce mobility events / contexts.
 
 **Sample Real Usage Example**
 The CCEF instructs the user to perform induced roaming using Virtual reality method.
