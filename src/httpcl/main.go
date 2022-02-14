@@ -21,11 +21,11 @@ func checkErr(err error, msg string) {
 }
 
 func main() {
-	RoundTripExample()
+	sendQuery()
 }
 
 
-func RoundTripExample() {
+func sendQuery() {
         url := os.Args[1]
 	req, err := http.NewRequest("GET", url, nil)
 	checkErr(err, "during new request")
