@@ -102,22 +102,20 @@ A hash-code is generated for this with input as Event data and stored against th
 
 **Algorithm A1:**
 The compression uses encoding methods internally with below strategy.
-1.Uses the profile reference from UDR / LDAP (basically UID of the user/CUG)
-2.Maps the event and the correlation events with unique numbers
-3.Uses the dictionary methods to compress the Event data received from serving nodes or OAM 
-4.Uses multi part ZIPs based on the random number generated from time stamp, 
-  size of data, 
-  ascii values at specific indices chosen inside the event data
-5.Assemble the ZIP with a strategy based on permutation sequence
+1. Uses the profile reference from UDR / LDAP (basically UID of the user/CUG)
+2. Maps the event and the correlation events with unique numbers
+3. Uses the dictionary methods to compress the Event data received from serving nodes or OAM
+4. Uses multi part ZIPs based on the random number generated from time stamp,size of data, ascii values at specific indices chosen inside the event data
+5. Assemble the ZIP with a strategy based on permutation sequence
 	The permutation sequence is stored in subscriber profile for configured time
 	and based on acknowledgement from user it will be moved to UDSF with documentation.
 
 **Algorithm A2.**
 Geo-Hash Generation:
 There is assembler function F (D1, D2, D3, metadata) that uses the below input.
-i.The public identity 
-ii.permutation sequence,
-iii.then the random parts of multi part ZIP 
+1. The public identity
+2. permutation sequence
+3. random parts of multi part ZIP 
 
 to generate the current Geo-Hash.
   
