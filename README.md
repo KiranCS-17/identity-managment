@@ -73,7 +73,7 @@ The new application function CCEM (communication context and event Management) i
 The Fraud user will be challenged to prove the Mobility Context Events and its relative events, at specified granular time or chain of times that becomes NP hard problem to solve and with multiple hashes the trusted user can request for recursive challenges with the recursino depth configured (medium,high,or greedy) . 
 Block chain method will be one implementation method to realize this concept.
 Google APIs can be used as an example for Location based Authentication and Authorization apart from 3GPP defined procedures.
-The CCEF can be located inside the Core Network elements a new fucntion or a standalone function
+The CCEF can be co-located inside the Core Network elements like HSS/UDM or as a new function or  a standalone function
 
 1.  UE/CUG performs authentication and attach subscribing for this new monitoring service.
 2.  RAN forwards this request to Serving Nodes (MME, AMF).
