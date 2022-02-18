@@ -49,7 +49,7 @@ Some mobility Event Examples
 25.	Running mobile app residing in specific geographic location in cloud (Real, Induced,Relative) 
 26.	Device access events based on white/black list of biometric information A-Party,CUG
 27.	Device access events based on white/black list of speech and guesture of A-Party,CUG
-28.	Device access events based on relation of other measuring devices ( relative to temperature sensor, electricity consumption or user or CUG or any one in CUG,usage of    	 data on a day)
+28.	Device access events based on relation of other measuring devices ( relative to temperature sensor, electricity consumption or user of CUG or any one in CUG,usage of    	 data on a day)
 
 
 **Realization**
