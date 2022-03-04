@@ -50,6 +50,7 @@ Some mobility Event Examples
 26.	Device access events based on white/black list of biometric information A-Party,CUG
 27.	Device access events based on white/black list of speech and guesture of A-Party,CUG
 28.	Device access events based on relation of other measuring devices ( relative to temperature sensor, electricity consumption or user of CUG or any one in CUG,usage of    	 data on a day)
+29.	XR ( AR/VR ) based events in control and data plane that can be (Real, Induced,Relative)  
 
 
 **Realization**
