@@ -132,6 +132,9 @@ There is assembler function F (D1, D2, D3, metadata) that uses the below input.
 3. random parts of multi part ZIP 
 
 to generate the current Geo-Hash.
+
+the GEOHASH generated can be realised in as   SubjectAltName ::= GeneralNames ex as otherName or registeredID etc., modeled inside UDR or UDSF.
+https://datatracker.ietf.org/doc/html/rfc2459#section-4.2.1.7
   
 
   
