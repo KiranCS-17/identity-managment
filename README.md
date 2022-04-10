@@ -51,6 +51,9 @@ Some mobility Event Examples
 27.	Device access events based on white/black list of speech and guesture of A-Party,CUG
 28.	Device access events based on relation of other measuring devices ( relative to temperature sensor, electricity consumption or user of CUG or any one in CUG,usage of    	 data on a day)
 29.	XR ( AR/VR ) based events in control and data plane that can be (Real, Induced,Relative)  
+30.	Attaching from specific network slice event in combination with above events
+31.	Events due to self Activations of SIM and linking to primary/secondary devices including CUG
+32.	Events induced due to alternative messaging mechanisms 
 
 
 **Realization**
