@@ -28,7 +28,7 @@ Some mobility Event Examples
 4.	Re-Attach Event (Real, Induced)
 5.	Detach Event (Induced)
 6.	Relative Attach Event (Real)
-7.	OAM events due to UE service usage
+7.	OAM events due to UE service usage or any counters related to UE-Activity like BRM counters [ CPU,Mem,disk,transaction contexts,connections etc.,]
 8.	Charging Events due to UE service usage
 9.	Attach from type of network event
 10.	Attach from specified Device event
