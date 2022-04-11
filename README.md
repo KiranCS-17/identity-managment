@@ -55,7 +55,7 @@ Some mobility Event Examples
 31.	Events due to self Activations of SIM and linking to primary/secondary devices including CUG
 32.	Events induced due to alternative messaging mechanisms 
 33.	Any statistical based learning and predictions from OAM for detection and estimation of Mobility context events / OAM events using AI/ML techniques.
-34.	Access from specific tenants / multi tenants in case of multi tenant capable CN Registers or multi tenant capable NFs and Service Registery and discovery
+34.	NF / User Access from specific tenants / multi tenants in case of multi tenant capable CN Registers or multi tenant capable NFs and Service Registery and discovery
 
 
 **Realization**
