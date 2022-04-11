@@ -54,6 +54,7 @@ Some mobility Event Examples
 30.	Attaching from specific network slice event in combination with above events
 31.	Events due to self Activations of SIM and linking to primary/secondary devices including CUG
 32.	Events induced due to alternative messaging mechanisms 
+33.	Any statistical based learning and predictions from OAM for detection and estimation of Mobility context events / OAM events using AI/ML techniques.
 
 
 **Realization**
@@ -114,6 +115,8 @@ In this roaming scenario the specific events can be induced by operator between 
 by using CCEF to get the location information, user state, the user specific contexts.
 The other relative events from control plane elements are recorded as event data stored in UDSF.
 The event can be fully constructed based on the induced roaming. 
+
+the CCEF can host the ML Training algorithm for prediction and pre/post detection of mobility context events.
 
 A hash-code is generated for this with input as Event data and stored against the time stamp in UDSF.
 
