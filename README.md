@@ -56,6 +56,9 @@ Some mobility Event Examples
 32.	Events induced due to alternative messaging mechanisms 
 33.	Any statistical based learning and predictions from OAM for detection and estimation of Mobility context events / OAM events using AI/ML techniques.
 34.	NF / User Access from specific tenants / multi tenants in case of multi tenant capable CN Registers or multi tenant capable NFs and Service Registery and discovery
+35.	User / Device proximity measurement events < especially in case of UE misuses >
+36.	Proximity event information event and monitoring  via alternate devices , RATs, 3GPP and non 3GPP services.
+
 
 
 **Realization**
