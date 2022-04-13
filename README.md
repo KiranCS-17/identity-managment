@@ -58,6 +58,8 @@ Some mobility Event Examples
 34.	NF / User Access from specific tenants / multi tenants in case of multi tenant capable CN Registers or multi tenant capable NFs and Service Registery and discovery
 35.	User / Device proximity measurement events < especially in case of UE misuses >
 36.	Proximity event information event and monitoring  via alternate devices , RATs, 3GPP and non 3GPP services.
+	Example case may cover alos : when user is not in the contact of device or in proximity the device has AI enabled assistant application 
+	who can trigger SMS to CUG or to send mail to mail box and such applciation can be authorized by network operator.
 
 
 
