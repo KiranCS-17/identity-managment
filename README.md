@@ -60,6 +60,10 @@ Some mobility Event Examples
 36.	Proximity event information event and monitoring  via alternate devices , RATs, 3GPP and non 3GPP services.
 	Example case may cover alos : when user is not in the contact of device or in proximity the device has AI enabled assistant application 
 	who can trigger SMS to CUG or to send mail to mail box and such applciation can be authorized by network operator.
+37.	Relative Events from secondary Device.
+38.	Relative Challenge events from last "N" calls
+39.	Relative Challenge events indicating personal tokens in messages and subscribing for the same UE originated control signalling
+40.	All UE specific applciation context static subscription configuration in profile.
 
 
 
