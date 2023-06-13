@@ -53,7 +53,7 @@ Some mobility Event Examples
 29.	XR ( AR/VR ) based events in control and data plane that can be (Real, Induced,Relative)  
 30.	Attaching from specific network slice event in combination with above events
 31.	Events due to self Activations of SIM and linking to primary/secondary devices including CUG
-32.	Events induced due to alternative messaging mechanisms 
+32.	Events induced due to alternative messaging mechanisms example from Digital twin UEs or DTIs or UEs.
 33.	Any statistical based learning and predictions from OAM for detection and estimation of Mobility context events / OAM events using AI/ML techniques.
 34.	NF / User Access from specific tenants / multi tenants in case of multi tenant capable CN Registers or multi tenant capable NFs and Service Registery and discovery
 35.	User / Device proximity measurement events < especially in case of UE misuses >
