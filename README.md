@@ -66,6 +66,7 @@ Some mobility Event Examples
 40.	All UE specific application context static subscription configuration in profile including agreed named IP and Ports or static APN/DNN
 	used to activate knowledge base authorization challenges.
 41.     UE's Digital Twin based authorization.
+42. Core network operator managed whitelist and blacklist of DTIs or allowed DTIs driven from subscriber provisioning context including allowed IMSI, MSISDN,IMEI,ME-ID as DTI as pre-provisioning context.
 
 
 
