@@ -64,7 +64,8 @@ Some mobility Event Examples
 38.	Relative Challenge events from last "N" calls
 39.	Relative Challenge events indicating personal tokens in messages and subscribing for the same UE originated control signalling
 40.	All UE specific application context static subscription configuration in profile including agreed named IP and Ports or static APN/DNN
-	used to activate knowledge base authorization challenges. 
+	used to activate knowledge base authorization challenges.
+41.     UE's Digital Twin based authorization.
 
 
 
