@@ -27,7 +27,7 @@ Some mobility Event Examples
 3.	Roaming Events (Real, Induced) (includes space roaming)
 4.	Re-Attach Event (Real, Induced)
 5.	Detach Event (Induced)
-6.	Relative Attach Event (Real)
+6.	Relative Attach Event (Real)(including authentication, authorization and relative authorization)
 7.	OAM events due to UE service usage or any counters related to UE-Activity like BRM counters [ CPU,Mem,disk,transaction contexts,connections etc.,]
 8.	Charging Events due to UE service usage
 9.	Attach from type of network event
@@ -84,8 +84,9 @@ Some mobility Event Examples
   ![image](https://github.com/KiranCS-17/identity-managment/blob/main/figure-2.png)
   
 **Note:**
-The method of generating the events, inducing it and maintaining the records of events for UE and group of UEs, is hosted inside an AF called Communication Context & Event  Management Function.( CCEF)
-This AF is responsible for producing the Authorization events and creating challenge factors for fraud user using time stamp or any related events as a question.
+The method of generating the events, inducing it and maintaining the records of events for UE and group of UEs, is hosted inside an AF called Communication Context & Event  Management Function.( CCEF) 
+CCEF can be any AF or realized as micro service/ process or thread in any NF.
+This AF is responsible for producing the Authorization events and creating challenge factors for fraud user using time stamp or any related events as a question, it can use custom AVPs or 3GPP defined AVPs/Header or resue existign AVPs/Header with metadata extentions 
 Some of the concepts of induced virtual roaming with AR-VR facilitation to create mobile communication context events that are encoded in 5G Data stores like UDR/UDSF.
 The new application function CCEM (communication context and event Management) is used to trigger mobility events related to asset protection or monitoring/communication patters detections and formulating Event data stored in granular time series DB in compact method with context data chains. 
 The Fraud user will be challenged to prove the Mobility Context Events and its relative events, at specified granular time or chain of times that becomes NP hard problem to solve and with multiple hashes the trusted user can request for recursive challenges with the recursion depth configured (medium,high,or greedy) . 
