@@ -4,7 +4,7 @@
 The idea proposes a new method for mobile and immobile asset protection and secure life cycle management using network assisted and network provided events.
 The method to
 1. Generate mobility and communication context events.
-   	a> "For all signalling contexts [ authentication, authorization, accounting, optimization info’s etc.,] indication of such context to other NFs using custom AVPs or standard AVPs or existing AVPs with metadata and annotations for Context 
+a> "For all signalling contexts [ authentication, authorization, accounting, optimization info’s etc.,] indication of such context to other NFs using custom AVPs or standard AVPs or existing AVPs with metadata and annotations for Context 
             conveyance/transportation the  annotation as a service can be used with RBML [ rule-based Machine learning], unsupervised learning or supervised learning. the annotation matches the mobility and communication context events."
 3. Store communication context event data.
 4. Generate a Hash Tag based on stored event data.
@@ -69,8 +69,6 @@ Some mobility Event Examples
 	used to activate knowledge base authorization challenges.
 41.	UE's Digital Twin based authorization.
 42. 	Core network operator managed whitelist and blacklist of DTIs or allowed DTIs driven from subscriber provisioning context including allowed IMSI, MSISDN,IMEI,ME-ID as DTI as pre-provisioning context.
-
-
 
 **Realization**
  ![image](https://github.com/KiranCS-17/identity-managment/blob/main/figure-1.png)
